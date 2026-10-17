@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXORA | Diseño Web</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #b91212;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 25px;
+            color: #e7e7d9;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 80px 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+        }
+
+        p {
+            color: #c99807
+            font-size: 18px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 25px;
+            background: #200b0b
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        /* Tarjetas de servicios */
+        section div div {
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        section div div:hover {
+            transform: translateY(-8px);
+            background: #4f6585 !important;
+        }
+
+        /* Títulos */
+        h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: #bb6060;
+        }
+
+        /* Adaptación a celulares */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 32px;
+            }
+
+            header {
+                gap: 15px;
+                flex-wrap: wrap;
+            }
+
+            main {
+                padding: 50px 20px;
+            }
+        }
+
+/* Estilo profesional de NEXORA */
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #0B1120;
+    border-bottom: 1px solid #263248;
+}
+
+nav a {
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #A5B4FC !important;
+}
+
+a {
+    transition: transform 0.3s, background 0.3s;
+}
+
+main > a:hover {
+    background: #6244E8;
+    transform: translateY(-3px);
+}
+
+h1 {
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+h2 {
+    color: #FFFFFF;
+}
+
+section div div {
+    border: 1px solid #334155;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+section div div:hover {
+    transform: translateY(-6px);
+    border-color: #A5B4FC;
+}
+
+    </style>
+</head>
+<body>
+
+    
+<header style="display: flex; justify-content: space-between; align-items: center; padding: 25px 8%; flex-wrap: wrap;">
+    <span>NEXORA</span>
+
+    <nav style="display: flex; gap: 20px; font-size: 16px;">
+        <a href="#inicio" style="margin: 0; padding: 0; background: none; color: white;">Inicio</a>
+        <a href="#servicios" style="margin: 0; padding: 0; background: none; color: white;">Servicios</a>
+        <a href="#contacto" style="margin: 0; padding: 0; background: none; color: white;">Contacto</a>
+    </nav>
+</header>
+
+
+    <main>
+        <h1>Tu negocio merece una gran web.</h1>
+
+        <p>Creamos páginas modernas para hacer crecer tu negocio.</p>
+
+        <a href="mailto:contacto@nexora.com">
+            Nuestros servicios
+        </a>
+        <section style="margin-top: 70px;">
+            <h2>¿Qué hacemos?</h2>
+
+            <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+
+                <div style="background: #1E293B; padding: 25px; border-radius: 12px; width: 220px;">
+                    <h3>Diseño web</h3>
+                    <p>Diseños modernos para tu negocio.</p>
+                </div>
+
+                <div style="background: #1E293B; padding: 25px; border-radius: 12px; width: 220px;">
+                    <h3>Tiendas online</h3>
+                    <p>Vendé tus productos por internet.</p>
+                </div>
+
+                <div style="background: #1E293B; padding: 25px; border-radius: 12px; width: 220px;">
+                    <h3>Web para empresas</h3>
+                    <p>Mostrá tus servicios profesionalmente.</p>
+                </div>
+
+            </div>
+        </section>
+
+    <main id="inicio">
+
+<section id="contacto" style="padding: 50px 20px;">
+    <h2>¿Querés crear tu página web?</h2>
+    <p>Contactanos y hagamos realidad tu proyecto.</p>
+
+    <a href="https://wa.me/5492230000000" target="_blank">
+        Hablar por WhatsApp
+    </a>
+</section>
+
+</body>
+</html>
